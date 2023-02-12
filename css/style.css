@@ -877,43 +877,34 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* ================================================= */
 
 #schedule {
-    background: white;
-    position: relative; 
-
- 
+    position: relative;
+    padding: 80px 0 90px 0;
+    background: #f2f2f2;
 }
 
-#schedule .container {
+#schedule  .container {
     max-width: 700px;
-    position: relative; 
-    right: 50px; 
-    width: 40%;
-
 }
 
 #schedule  .row {
-    padding-top: -5px;
+    padding-top: 45px;
     border-bottom: 1px dotted #666;
- 
-
 }
 
-#schedule .row:first-child {
+#schedule  .row:first-child {
     padding-top: 0;
-
 }
 
 #schedule  .text-right {
     border-right: 1px dotted #666;
-
 }
 
-#agenda h2 {
+#schedule h2 {
     margin: 0;
 }
 
 @media (max-width: 575.98px) {
-    #agenda h2 {
+    #schedule  h2 {
         font-size: 20px;
         font-weight: 400;
     }
