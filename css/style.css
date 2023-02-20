@@ -1664,3 +1664,36 @@ body.mobile-nav-active #mobile-nav-toggle {
     font-weight: 400;
   }
   
+
+
+
+
+
+
+  #seed .container {
+    margin-top: 50px;
+  }
+  
+  #seed .card {
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+ #seed .card-body {
+    padding: 30px;
+  }
+  
+  #seed h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  #seed h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  
+  #seed p.lead {
+    font-size: 20px;
+  }
