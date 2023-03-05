@@ -1527,20 +1527,23 @@ body.mobile-nav-active #mobile-nav-toggle {
     background-color: #f2f2f2;
   }
   .partner .partner-box {
+    position: relative; 
+    left: 90px; 
     display: block;
     opacity: 0.3;
     height: 150px;
-    width: 150px;
+    width: 180px;
     margin: 25px auto;
+    padding: 150px 0;
+
+
     -webkit-transition: 0.5s all linear;
             transition: 0.5s all linear;
   }
   .partner .partner-box:hover {
     opacity: 1;
   }
-  .partner .partner-box-1 {
-    background: url(//cdn.xuansiwei.com/tianq5905/conference/assets/images/partner/partner-1.png) no-repeat center center/contain;
-  }
+  .partner .partner-box-1{ position: relative; top:-40px; left:-70px; width: 78%;}
   .partner .partner-box-2 {
     background: url(//cdn.xuansiwei.com/tianq5905/conference/assets/images/partner/partner-2.png) no-repeat center center/contain;
   }
@@ -1562,6 +1565,28 @@ body.mobile-nav-active #mobile-nav-toggle {
   .partner .partner-box-8 {
     background: url(//cdn.xuansiwei.com/tianq5905/conference/assets/images/partner/partner-8.png) no-repeat center center/contain;
   }
+  @media (max-width: 767px) {
+    .partner .partner-box {
+      padding: 20px 0;
+      left: 0px; 
+      width: 100%; 
+    }
+    .partner .partner-box-1 {
+        position: relative;
+        left: 0;
+        top: 25px;
+        margin-top: 30px;
+    }
+}
+@media (max-width: 420px){ 
+    .partner .partner-box-1 {
+        position: relative;
+        left: -70px;
+        top: 25px;
+        width: 40%; 
+        margin-top: 30px;
+    }
+}
   
 /* ================================================= */
 /* ---------------- FAQ Section ---- --------------- */
